@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web');
+
+  
+ .head{
+  float: left;
+  font-size: 100px;
+  font-family:Istok Web ;
+  font-weight: 200%;
+  color: #F6C100;
+  margin-left: 3vh;
+  }
+  .head-keela{
+    font-family: Istok Web;
+    font-size: 30px;
+    font-weight: 100%;
+    position: absolute;
+    margin-top: 30vh;
+    text-align: justify;
+    width: 50%;
+    margin-left: 5vh;
+  }
+  .para-right{
+  
+    overflow: hidden;
+    width: 40%;
+    height: 60%;
+    float: right;
+    margin-top: 30vh;
+  }

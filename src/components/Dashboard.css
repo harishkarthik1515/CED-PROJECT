@@ -1,0 +1,251 @@
+.dashb-container{
+  width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgba(223,223,223);
+}
+
+.dashb-menu{
+  height: 100vh;
+  width: 15vw;
+  background-color: #3F3E3E;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.prod-name{
+  font-size: 160%;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+
+.dashb-menu-items{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+.dashb-menu-item{
+  border-bottom: solid 1px rgba(255, 255, 255, 0.135);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dashb-menu-item:hover{
+  background-color: rgba(255, 255, 255, 0.07);
+  cursor: pointer;
+}
+
+.dashb-main{
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashb-header{
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.dashb-rest-comp{
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  padding: 20px;
+}
+
+.dashb-search{
+  background-color: rgba(228, 228, 228, 0.428);
+  border-radius: 20px;
+  padding: 10px;
+  height: 20px;
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon{
+  width: 20px;
+  height: 20px;
+}
+
+.search-input{
+  background-color: transparent;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 20vw;
+}
+
+.dashb-profile{
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon{
+  color: #FFB700;
+  width: 30px;
+  height: 30px;
+  background-color: #3F3E3E;
+  border-radius: 100%;
+}
+
+.dashb-body{
+  background-color: rgba(219, 219, 219, 0.475);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.numbers-cards , .charts-cards, .dashb-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.num-card{
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.num-title{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.num-value{
+  font-size: 150%;
+}
+
+.chart-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 33%;
+}
+
+.chart-card:hover{
+  box-shadow: 2px 2px 10px rgba(175, 175, 175, 0.52);
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.user-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.time{
+  background-color: #b2b2b261;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.user-category{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.user-category-item{
+  width: 70px;
+  padding: 5px;
+  border: solid 2px #FFB700;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#selected-category{
+  background-color: #FFB700;
+}
+
+#not-selcat{
+  background-color: transparent;
+}
+
+.user-data{
+  height: 300px;
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 45vw;
+}
+
+.user-title{
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.user-list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+  border-bottom: solid 1px #bebcbc6a;
+  padding: 5px;
+}
+
+.marking{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.file-upload {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.upload-btn {
+  background-color: gold;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.upload-btn input[type="file"] {
+  display: none;
+}

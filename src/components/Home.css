@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans');
+
+
+.home {
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+  .home h1 {
+    color: blue;
+  }
+  .home h2{
+    font-weight: 100;
+    font-family: Istok Web;
+    font-size: 1500%;
+    color:#DEDEDE;
+    align-items: center;
+    margin-top: 5%;
+
+  }
+  
+
+  .image-pic{
+  float: right;
+  margin-top: 10vh;
+  }
+  .image-pic2{
+    float: left;
+   margin-top: 40vh;
+
+  
+
+  }
+  .image{
+    width: 100vw;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    z-index: -1;
+    
+   
+
+  }
+ 
+.pulse-keela{
+  font-size: 300%;
+  font-family: Inria Sans;
+  font-weight: 100;
+  align-items: center;
+  margin-top: -30vh;
+}
+.ulti-keela{
+  overflow: hidden;
+  
+}

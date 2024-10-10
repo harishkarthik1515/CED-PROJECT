@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web');
+
+.gold-dabba{
+    float: left;
+    width: 800px;
+    height: 800px;
+    width: 40%;
+}
+.gold-mela{
+    position: absolute;
+    float: left;
+    font-family:Istok Web ;
+    font-size: 163px;
+    margin-top: 35vh;
+    font-weight: 200;
+    color:#757575;
+}
+
+.user-right{
+    float: right;
+    overflow: hidden;
+    margin-top: 30vh;
+    width: 500px;
+    margin-right: 20vh;
+}
+.admin-right{
+    margin-top: 15vh;
+    overflow: hidden;
+    margin-right: 20vh;
+    width: 500px;
+    float: right;
+}

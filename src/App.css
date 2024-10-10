@@ -1,38 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Istok Web', sans-serif;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  background: #333;
+  padding: 10px;
+  position: fixed; /* Fix the header at the top */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays on top of other content */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  padding: 80px 20px; /* Adjust padding to account for the fixed header */
+  min-height: 100vh;
+  box-sizing: border-box; /* Include padding in the element's total width and height */
 }

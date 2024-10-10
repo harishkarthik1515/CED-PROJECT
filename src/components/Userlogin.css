@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web');
+.userlogin-container {
+
+    display: flex;
+    margin-bottom: -5vh;
+    overflow: hidden;
+  
+}
+
+
+
+.headmain{
+   font-weight: 500%;
+    position: absolute;
+    font-family:Istok Web;
+    color: #F6C100;
+    font-size: 60px;
+    float: left;
+    margin-left: 15vh;
+    margin-top: 10vh;
+}
+
+
+.unad{
+    color: #FFFFFF;
+    font-family:Istok Web;
+    margin-left: 20vh;
+    margin-top: 22vh;
+    font-size: 40px;
+}
+.passad{
+    color: #FFFFFF;
+    margin-left: 17vh;
+    font-family:Istok Web;
+    margin-top: 20vh;
+    font-size: 40px;}
+    .adminbox{
+        position: absolute;
+        margin-top: -26vh;
+    }
+    .adminbox2{
+        position: absolute;
+    }
+    .eyeimgad{
+        position: absolute;
+        margin-top: 2vh;
+        margin-left: 52vh;
+    }
+    .signimgad{
+        position: absolute;
+        flex-direction: column;
+        margin-top: 25vh;
+        margin-left: 40vh;
+    }
+    .fpad{
+        position: absolute;
+        margin-top: 10vh;
+        margin-left: 60vh;
+        color: #FFFFFF;
+    
+    }
+    .eventimg{
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
