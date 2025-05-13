@@ -9,17 +9,13 @@
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
     "powerbi-client": "^2.23.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.24.0",
     "react-scripts": "5.0.1",
-    "react-tweenful": "^0.1.0",
     "recharts": "^2.12.7",
     "web-vitals": "^2.1.4",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.35",
-    "autoprefixer": "^10.4.17",
     "framer-motion": "^11.0.8",
     "@headlessui/react": "^1.7.18"
   },
@@ -48,7 +44,10 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.17",
     "eslint-plugin-react": "^7.34.3",
-    "eslint-plugin-react-hooks": "^4.6.2"
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
   }
 }
